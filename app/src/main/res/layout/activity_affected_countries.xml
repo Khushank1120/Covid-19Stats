@@ -21,7 +21,8 @@
         android:drawablePadding="15dp"
         android:background="@drawable/edittext_shadow"
         android:drawableRight="@drawable/ic_search_black_24dp"/>
-    <ListView
+   
+  <ListView
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:id="@+id/listView"
@@ -37,8 +38,6 @@
         '
     </com.leo.simplearcloader.SimpleArcLoader>
 
-
-
-
+  
 </RelativeLayout>
 
