@@ -1,6 +1,6 @@
 # Covid19Statistics
 
-# General Info
+## General Info
 
 **An android app that shows COVID-19 cases, recovered, deaths, active cases, cases today, deaths today, affected countries and various other stats all over the world.**
 
