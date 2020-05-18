@@ -8,4 +8,4 @@
 
 * Android Studio version-3.6.3
 * Used android plugin EasyGraph for the Pie Chart and SimpleArcLoader for the animation.
-* Also used API https://corona.lmao.ninja/v2/all for the statistics and https://corona.lmao.ninja/v2/country for statistics of all the countires.
+* Also used REST API https://corona.lmao.ninja/v2/all for statistics and https://corona.lmao.ninja/v2/country for statistics of all the countires.
