@@ -31,7 +31,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import myapplication2.example.covqid_19stats.CountryModel;
+import myapplication2.example.covid_19stats.CountryModel;
 
 public class AffectedCountries extends AppCompatActivity {
 
