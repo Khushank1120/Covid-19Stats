@@ -2,7 +2,7 @@
 
 ## General Info
 
-**An android app that shows COVID-19 cases, recovered, deaths, active cases, cases tested positive today, deaths happened today, affected countries and various other stats all over the world.**
+**An android app that shows Coronavirus cases, recovered, deaths, active cases, cases tested positive today, deaths happened today, affected countries and various other stats all over the world.**
 
 ## Technologies Used
 
