@@ -12,7 +12,6 @@
             <stroke android:color="#66000000"
                 android:width="0.5dp"/>
 
-
         </shape>
     </item>
 </layer-list>

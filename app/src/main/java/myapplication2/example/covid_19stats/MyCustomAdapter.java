@@ -20,14 +20,16 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class MyCustomAdapter extends ArrayAdapter<CountryModel> {
+import myapplication2.example.covid_19stats.CountryModel;
+
+public class MyCustomAdapter extends ArrayAdapter<myapplication2.example.covid_19stats.CountryModel> {
 
     private Context context;
-    private List<CountryModel> countryModelsList;
-    private List<CountryModel> countryModelsListFiltered;
+    private List<myapplication2.example.covid_19stats.CountryModel> countryModelsList;
+    private List<myapplication2.example.covid_19stats.CountryModel> countryModelsListFiltered;
 
 
-    public MyCustomAdapter( Context context, List<CountryModel> countryModelsList) {
+    public MyCustomAdapter( Context context, List<myapplication2.example.covid_19stats.CountryModel> countryModelsList) {
         super(context, R.layout.list_custom_item,countryModelsList);
 
         this.context = context;
