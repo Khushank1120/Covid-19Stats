@@ -108,4 +108,3 @@ public class MyCustomAdapter extends ArrayAdapter<myapplication2.example.covid_1
         return filter;
     }
 }
-

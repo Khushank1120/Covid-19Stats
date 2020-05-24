@@ -24,7 +24,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.StringReader;
-
+// -Khushank Mistry
 public class MainActivity extends AppCompatActivity {
 
     TextView tvCases,tvRecovered,tvCritical,tvActive,tvCasesToday,tvTotalDeaths,tvDeathsToday,tvAffectedCountries;
