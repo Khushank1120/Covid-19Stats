@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     ScrollView scrollView;
     PieChart pieChart;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-
 
                         try {
                             JSONObject jsonObject = new JSONObject(response.toString());
@@ -98,8 +96,8 @@ public class MainActivity extends AppCompatActivity {
                             scrollView.setVisibility(View.VISIBLE);
                         }
 
-
                     }
+
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
@@ -113,13 +111,11 @@ public class MainActivity extends AppCompatActivity {
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(request);
 
-
     }
 
     public void goTrackCountries(View view) {
 
         startActivity(new Intent(getApplicationContext(),AffectedCountries.class));
-
 
     }
 }
