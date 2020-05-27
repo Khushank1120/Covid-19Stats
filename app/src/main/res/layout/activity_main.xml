@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_white"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:backgroundTint="#F8F6F6">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -46,76 +47,84 @@
                 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
+                    android:layout_height="25dp"
                     android:gravity="center_vertical">
 
                     <View
-                        android:layout_width="20dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
                         android:background="@color/cases" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/cases"
+                            android:textSize="15dp"
                             android:text="Total Cases"
-                            android:paddingLeft="12dp"/>
+                            android:paddingLeft="10dp"/>
 
                 </LinearLayout>
                
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
+                    android:layout_height="25dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp">
 
                     <View
-                        android:layout_width="20dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
                         android:background="@color/recovered"/>
                     
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/recovered"
+                        android:textSize="15dp"
                         android:text="Recovered"
-                        android:paddingLeft="12dp"/>
+                        android:paddingLeft="10dp"/>
 
                 </LinearLayout>
                 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
+                    android:layout_height="25dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp">
 
                     <View
-                        android:layout_width="20dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
                         android:background="@color/deaths"/>
                    
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/deaths"
+                        android:textSize="15dp"
                         android:text="Deaths"
-                        android:paddingLeft="12dp"/>
+                        android:paddingLeft="10dp"/>
 
                 </LinearLayout>
                 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
+                    android:layout_height="25dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp">
 
                     <View
-                        android:layout_width="20dp"
+                        android:layout_width="25dp"
                         android:layout_height="match_parent"
                         android:background="@color/active"/>
                     
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/active"
+                        android:textSize="15dp"
                         android:text="Active"
-                        android:paddingLeft="12dp"/>
+                        android:paddingLeft="10dp"/>
 
                 </LinearLayout>
 
@@ -139,14 +148,16 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <com.leo.simplearcloader.SimpleArcLoader
-                android:visibility="visible"
                 android:id="@+id/loader"
-                android:layout_centerInParent="true"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-               app:arc_style="simple_arc"
-                >
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="visible"
+                app:arc_style="complete_arc">
+
             </com.leo.simplearcloader.SimpleArcLoader>
             
             <ScrollView
@@ -158,7 +169,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    >
 
                     <TextView
                         android:layout_width="match_parent"
