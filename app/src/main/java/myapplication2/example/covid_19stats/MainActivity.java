@@ -24,7 +24,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.StringReader;
-// -Khushank Mistry
+
+// --Khushank Mistry
+
 public class MainActivity extends AppCompatActivity {
 
     TextView tvCases,tvRecovered,tvCritical,tvActive,tvCasesToday,tvTotalDeaths,tvDeathsToday,tvAffectedCountries;
@@ -113,9 +115,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void goTrackCountries(View view) {
+        public void goTrackCountries(View view) {
 
         startActivity(new Intent(getApplicationContext(),AffectedCountries.class));
 
     }
+
 }
