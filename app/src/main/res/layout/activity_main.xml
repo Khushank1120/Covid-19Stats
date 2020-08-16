@@ -514,7 +514,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
-        android:background="@color/color_one"
+        android:background="#D52320"
         android:text="@string/track_countries"
         android:textColor="@android:color/white"
         android:textSize="16sp"
